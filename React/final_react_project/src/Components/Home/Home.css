@@ -1,0 +1,84 @@
+.header-page {
+  width: 100%;
+  position: relative;
+  padding-top: 4.3%;
+}
+
+.header {
+  background-image: url(../../../public/main-photo.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 680px;
+  position: absolute;
+}
+
+.welcome {
+  width: 80%;
+  background-color: #f6f1ebae;
+  height: 50%;
+  border: 3px solid #8127bc;
+  position: absolute;
+  margin: 30% 0% 0% 10%;
+  padding: 10%;
+  text-align: center;
+}
+
+.welcome h2 {
+  font-family: 'CustomFont1', sans-serif;
+  padding-bottom: 5%;
+  font-size: 40px;
+  color: #5e0e93;
+}
+.welcome p {
+  font-size: 19px;
+  font-weight: 450;
+  color: #38382e;
+}
+
+.right {
+  position: relative;
+  height: 680px; /* Ensure the div takes the full height of its parent */
+  overflow: auto;
+}
+.right::-webkit-scrollbar {
+  width: 0.5em; /* You can adjust the width as needed */
+}
+
+/* The scrollbar thumb (the draggable part) */
+.right ::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Hide the thumb by making it transparent */
+}
+
+.header-right img {
+  margin-left: 55%;
+  margin-top: 2%;
+  width: 39%;
+}
+.latest h2 {
+  position: absolute;
+  margin: 2% 0% 0% 69%;
+  border-bottom: 3px solid #8127bc;
+  cursor: pointer;
+  font-family: 'CustomFont1', sans-serif;
+  font-size: 35px;
+}
+.latest h2 i {
+  color: #8127bc;
+}
+.latest h2:hover {
+  border-bottom: 3px solid #fbd67c;
+}
+.latesRecipe {
+  position: absolute;
+  margin: 10% 0% 0% 55%;
+  width: 40%;
+}
+.card-title{
+  font-family: 'CustomFont2', sans-serif;
+  padding-bottom: 3%;
+  color: #5e0e93;
+}
+.link{
+  all: unset;
+
+}

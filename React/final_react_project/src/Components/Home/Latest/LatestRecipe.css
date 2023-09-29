@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'CustomFont2';
+    src: url('../../../../public/Retro-Groove-Font-by-Keithzo-BF64c80f2f85e91.otf') format('truetype');
+  }
+.latestList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.latestCardImg{
+    height: 250px
+}
+.latestCard{
+    margin-bottom:20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.latestCard:hover{
+    box-shadow: 3px 3px 8px #4F1B72;
+
+}
+.cardText{
+    height: 100%px;
+}

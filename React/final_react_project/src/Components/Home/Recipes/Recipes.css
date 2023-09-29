@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('../../../../public/picky-retro-font-by-keithzo.otf') format('truetype');
+  }
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url('../../../../public/Retro-Groove-Font-by-Keithzo-BF64c80f2f85e91.otf') format('truetype');
+  }
+.recipeTime {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100%;
+    position: relative;
+    background-position: right;
+    background-size: cover;
+    border-bottom: 2px solid rgba(141, 3, 141, 0.207);
+    background-image: url(../../../../public/recipebg1.jpg);
+  }
+  .recipeTime h2 {
+    margin-left: 38%;
+    position: absolute;
+    border-bottom: 3px solid #8127bc;
+    cursor: pointer;
+    font-family: 'CustomFont1', sans-serif;
+    font-size: 40px;
+  }
+  
+  .recipeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+  }
+  
+  .recipeCardImg {
+    height: 250px;
+  }
+  .recipeCard {
+    margin: 90px 0px 0px 0px;
+    width: 1300px;
+    height: 580px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .recipeCard:hover {
+    box-shadow: 3px 3px 8px #4f1b72;
+  }
+  .recipeTime h2 i {
+    color: #8127bc;
+  }
+  .recipeTime h2:hover {
+    border-bottom: 3px solid #fbd67c;
+  }
+  .cardBody{
+    height: 150px;
+  }
+  

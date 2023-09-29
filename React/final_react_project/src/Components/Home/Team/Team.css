@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'CustomFont2';
+    src: url('../../../../public/Retro-Groove-Font-by-Keithzo-BF64c80f2f85e91.otf') format('truetype');
+  }
+  @font-face {
+    font-family: 'CustomFont4';
+    src: url('../../../../public/museful-regular.otf') format('truetype');
+  }
+.team{
+    position: relative;
+    padding: 5% 0% 0% 9%;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-image: url(../../../../public/team-bg.jpg);
+}
+
+.left-team{
+    position: absolute;
+    width: 32%;
+    margin-top: 5%;
+}
+.left-team img{
+    width: 100px;
+    padding-bottom: 7%;
+}
+.left-team Button{
+    height: 38px;
+    width: 170px;
+    border-radius: 20px;
+    margin-top: 2%;
+    background-image: url(../../../../public/button.jpg);
+    color: white;
+    background-position: left;
+}
+.left-team h1{
+    padding-bottom: 7%;
+    font-family: 'CustomFont2', sans-serif;
+    color: #5e0e93;
+}
+.left-team p{
+padding-bottom: 2%;
+font-size: 18px;
+}
+.left-team button{
+    margin-bottom: 3%;
+}
+.right-team{
+    position: relative;
+    margin-left: 45%;
+    display: flex;
+    width: 50%;
+    height: 80%;
+    background-color: rgba(105, 0, 105, 0.192);
+    border-radius: 5px;
+    flex-wrap: wrap;
+    padding: 3% 0% 3% 3%;
+}
+.team-member img{
+    position: relative;
+    width: 105px;
+    border-radius:50%;
+    height: 105px;
+    
+}
+.team-member{
+    padding: 3.1%;
+}
+.team-member h5{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 9%;
+    font-family: 'CustomFont4', sans-serif;
+}
+.team-member p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+   
+}

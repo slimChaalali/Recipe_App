@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'CustomFont1';
+  src: url('../../../../public/picky-retro-font-by-keithzo.otf') format('truetype');
+}
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('../../../../public/Retro-Groove-Font-by-Keithzo-BF64c80f2f85e91.otf') format('truetype');
+}
+
+.dinnerTime {
+  padding-top: 100px;
+  height: 100%;
+  position: relative;
+  background-image: url("../../../../public/dinner-bg.jpg");
+  background-size: cover;
+  border-bottom: 2px solid rgba(141, 3, 141, 0.207)
+}
+.dinnerTime h2 {
+  margin-left: 38%;
+  font-size: 40px;
+  position: absolute;
+  border-bottom: 3px solid #8127bc;
+  cursor: pointer;
+  font-family: 'CustomFont1', sans-serif;
+  
+}
+
+.dinnerList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 2%;
+}
+
+.dinnerCardImg {
+  height: 250px;
+}
+.dinnerCard {
+  margin: 90px 0px 20px 0px;
+  width: 1300px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dinnerCard:hover {
+  box-shadow: 3px 3px 8px #4f1b72;
+}
+.dinnerTime h2 i {
+  color: #8127bc;
+}
+
+
+.dinnerTime h2:hover {
+  border-bottom: 3px solid #fbd67c;
+}
+.cuisine{
+  color: rgb(92, 4, 92);
+  font-weight: 500;
+}
+.cardTexte{
+  height:150px;
+}

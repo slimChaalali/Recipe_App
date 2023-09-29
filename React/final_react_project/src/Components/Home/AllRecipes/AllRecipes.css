@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "CustomFont7";
+    src: url("../../../../public/TaborSinfoniaPersonalUseRegular-6YVXq.otf")
+      format("truetype");
+  }
+.recipe-main{
+    padding-top:4%;
+    padding-bottom: 2%;
+
+}
+
+.first-img img{
+    height:450px;
+    width: 100%;
+}
+.outline{
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.outline h1{
+   padding-top: 3.5%;
+    font-family: "CustomFont1", sans-serif;
+   
+}
+.outline p{
+    padding: 1% 15% 0% 15%;
+    font-family: "CustomFont4", sans-serif;
+    
+}
+.outline img {
+    position: absolute;
+    margin-bottom: 100px;
+    width: 12%; 
+    height: 263.5px;
+    right: 0; 
+  
+}
+.kitchen-detail{
+    margin-top: 6%;
+    position: relative;
+    height:600px;
+}
+.kitchen-detail img{
+    height:600px;
+    width: 100%;
+    position: absolute;
+}
+.kitchen-detail h5{
+    position: absolute;
+    color: white;
+    font-family: "CustomFont7", sans-serif;
+    width: 60%;
+    font-size: 70px;
+    padding-left: 100px;
+    padding-top: 120px;  
+}
+.explore{
+    padding-top: 5%;
+}
+.explore h1{
+    padding-left: 39%;
+    position: absolute;
+    font-family: "CustomFont1", sans-serif;
+}

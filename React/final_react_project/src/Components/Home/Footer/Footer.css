@@ -1,0 +1,37 @@
+.footer{
+    padding-top: 2%;
+    border-top: 1px solid #8127bc;
+}
+.footer-logo img{
+    width:350px;
+    margin-left: 39%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2% 35% 1% 35%;
+}
+.footer-links h5{
+    font-size: 15px;
+}
+.footer-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 46% 2% 46%;
+    border-radius: 20px;  
+}
+.footer-btns button{
+    border-radius: 20px;  
+    width: 35px;    
+    height: 35px;  
+    background-color: #430C8C;
+}
+.footer-btns button i{
+    font-size:20px ;
+    color: white;
+}
+.right-reserved p{
+    text-align: center;
+    padding-bottom: 2%;
+}

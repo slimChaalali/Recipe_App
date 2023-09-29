@@ -1,0 +1,86 @@
+.main{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../../public/login.jpg);
+    background-size: cover;
+}
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5% 5% 8% 5%;
+  background-color: rgba(255, 255, 255, 0.519);
+  box-shadow: 6px 6px 10px #4F1B72;
+  border-radius: 50px;
+}
+.formulaire form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#email{
+    margin-bottom: 10%;
+    padding-left: 19%;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px #4F1B72;
+    font-size: 17px;
+}
+#email::placeholder{
+    font-size: 17px;
+}
+#password{
+    margin-bottom: 5%;
+    padding-left: 19%;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px #4F1B72;
+    font-size: 17px;
+}
+#password::placeholder{
+    font-size: 17px;
+}
+
+.emailIcon{
+    position: absolute;
+    padding-left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.8%;
+    font-size: 25px;
+}
+.passIcon{
+    position: absolute;
+    padding-left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18.1%;
+    font-size: 25px;
+}
+
+.loginButton{
+    height: 38px;
+    width: 170px;
+    margin-left:67px;
+    border-radius: 20px;
+    margin-top: 2%;
+    background-image: url(../../../public/button.jpg);
+    color: white;
+    background-position: left;
+}
+.formulaire h4{
+    font-size: 30px;
+    color: #270041;
+}
+.errorEmail{
+    position: fixed;
+    margin-top: 11%;
+    padding-left: 8%;
+    color: rgb(217, 41, 41);
+    font-size: 15.5px;
+    font-weight: bolder;
+}
