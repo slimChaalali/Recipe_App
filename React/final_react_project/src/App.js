@@ -6,6 +6,7 @@ import store from './Redux/Store';
 import { Provider } from 'react-redux';
 import RecipeContent from './Components/Home/RecipeContent/RecipeContent';
 import AllRecipes from './Components/Home/AllRecipes/AllRecipes';
+import Profile from './Components/Home/Profile/Profile';
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
           <Route path='/home' element={<Home renderStars={renderStars} />} />
           <Route path='/allrecipes/:type' element={<AllRecipes renderStars={renderStars}/>} />
           <Route path='/recipe/:name/:key' element={<RecipeContent renderStars={renderStars} />} />
+          <Route path='/profile/:key' element={<Profile/>} />
         </Routes>
       </Provider>
     </div>

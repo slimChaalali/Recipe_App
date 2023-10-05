@@ -1,0 +1,192 @@
+.images {
+  padding: 4.9% 5% 0% 5%;
+  position: relative;
+}
+.cover {
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 2px 15px rgba(129, 39, 188, 0.5);
+}
+.profile {
+  position: absolute;
+  margin: 12% 5% 5% 35.5%;
+  border-radius: 150px;
+  background-color: aliceblue;
+  width: 18%;
+  height: 40%;
+  box-shadow: 0 2px 15px rgba(129, 39, 188, 0.5);
+}
+.description {
+  text-align: center;
+  padding-top: 5%;
+}
+.description p {
+  border-bottom: 1px solid rgb(205, 205, 205);
+  padding-bottom: 3%;
+}
+.intro {
+  padding: 1%;
+  width: 30%;
+  height: 100%;
+  margin-left: 5%;
+  background-color: rgba(186, 19, 186, 0.21);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(129, 39, 188, 0.5);
+}
+.intro h2 {
+  padding-bottom: 1%;
+}
+.intro button {
+  margin-top: 1%;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url(../../../../public/button.jpg);
+  color: white;
+  background-position: left;
+}
+.posts-side {
+  border-left: 1px solid rgb(205, 205, 205);
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  margin-left: 40%;
+  padding-left: 3%;
+}
+.posts {
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 12%;
+  padding: 2%;
+  background-color: rgba(186, 19, 186, 0.21);
+  right: 0;
+  width: 90%;
+  height: 190px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(129, 39, 188, 0.5);
+  padding-right: 25%;
+}
+.post-input img {
+  width: 18%;
+  height: 80px;
+  border-radius: 50px;
+}
+.post-share {
+  display: inline-block;
+  position: absolute;
+}
+.post-share textarea {
+  width: 500px;
+  height: 100px;
+  margin-left: 2%;
+  border-radius: 10px;
+  padding: 2%;
+  resize: none;
+}
+.media {
+  display: flex;
+}
+.media button {
+  margin-left: 18%;
+  margin-top: 2%;
+  width: 20%;
+  height: 39px;
+  border-radius: 20px;
+  background-image: url(../../../../public/button.jpg);
+  color: white;
+  background-position: left;
+}
+.media input {
+  padding-top: 2%;
+  padding-left: 2%;
+}
+.shared-posts {
+  background-color: rgba(186, 19, 186, 0.21);
+  padding: 2%;
+  margin-bottom: 5%;
+  width: 85%;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(129, 39, 188, 0.5);
+  position: relative;
+}
+.post-owner {
+  display: flex;
+  align-items: center;
+}
+.post-owner img {
+  width: 14%;
+  height: 80px;
+  border-radius: 50px;
+}
+.post-owner h6 {
+  padding-left: 2%;
+}
+.media-shared {
+  padding-left: 4%;
+  padding-top: 2%;
+}
+.media-shared img {
+  width: 95%;
+  height: 260px;
+}
+.media-shared video {
+  width: 95%;
+  height: 260px;
+}
+.likes {
+  padding-top: 2%;
+  width: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.likes button {
+  width: 30%;
+  border: none;
+  margin-bottom: 2%;
+  background-color: transparent;
+}
+.countes {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.post-comment {
+  width: 100%;
+}
+.write-comment textarea {
+  margin-top: 2%;
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border-radius: 10px;
+  padding: 2%;
+}
+.write-comment button {
+  margin-left: 78%;
+  margin-top: 2%;
+  background-image: url(../../../../public/button.jpg);
+  color: white;
+  background-position: left;
+  width: 20%;
+  height: 39px;
+  border-radius: 20px;
+}
+.posted-comment {
+  display: flex;
+  border-bottom: 1px solid rgb(205, 205, 205);
+}
+.posted-comment img {
+  width: 10%;
+  height: 60px;
+  border-radius: 50px;
+}
+.comment-owner {
+  padding-left: 3%;
+  padding-top: 3%;
+}
+.noPost{
+  padding-left: 45%;
+  padding-top: 10%;
+  font-size: 18px;
+}

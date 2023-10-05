@@ -55,7 +55,7 @@ const Navbare = () => {
                         navbarScroll
                     >
                         <Nav.Link onClick={() => navigate('/home')} style={{ color: '#430C8C' }}>Home</Nav.Link>
-                        <Nav.Link style={{ color: '#430C8C' }}>Link</Nav.Link>
+                        <Nav.Link onClick={() => navigate('/profile/1234')} style={{ color: '#430C8C' }}>Link</Nav.Link>
                         <NavDropdown title="Recipes" id="navbarScrollingDropdown">
                             <NavDropdown.Item style={{ color: '#430C8C' }}>Action</NavDropdown.Item>
                             <NavDropdown.Item style={{ color: '#430C8C' }}>
@@ -75,7 +75,7 @@ const Navbare = () => {
                             <NavDropdown.Divider />
                             <Link to="/allrecipes/Global" style={{ textDecoration: 'none' }}><NavDropdown.Item href="#action3" style={{ color: '#430C8C' }}>See All</NavDropdown.Item></Link>
                         </NavDropdown>
-                        <Nav.Link href="#" style={{ color: '#430C8C' }}>
+                        <Nav.Link  onClick={() => navigate('/profile/123')} style={{ color: '#430C8C' }}>
                             Link
                         </Nav.Link>
 
@@ -128,7 +128,7 @@ const Navbare = () => {
                                 variant="none"
                                 title={<i class="fa-solid fa-bars"></i>}
                             >
-                                <Dropdown.Item eventKey="1" style={{ color: '#430C8C' }}>Profile</Dropdown.Item>
+                               <Dropdown.Item onClick={()=>navigate(`/profile/${user.actualUser.id}`)}  style={{ color: '#430C8C' }}>Profile</Dropdown.Item>
                                 <Dropdown.Item eventKey="2" style={{ color: '#430C8C' }}>Settings</Dropdown.Item>
                                 <Dropdown.Divider />
                                 <Dropdown.Item eventKey="4" style={{ color: '#430C8C' }} onClick={logout}>LogOut</Dropdown.Item>
