@@ -21,11 +21,12 @@ const Navbare = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const [isClicked, setIsClicked] = useState(false);
+    const [search, setSearch] = useState('')
     const handleSearch = () => setIsClicked(!isClicked);
     const favoUser = favorites.filter(favo => favo.id === user.actualUser.id)
     const handleEnterKey = (event) => {
         if (event.key === 'Enter') {
-            navigate('/')
+            navigate(`/search/${search}`)
         }
     };
     const handleRemove = (id, event) => {
@@ -75,7 +76,7 @@ const Navbare = () => {
                             <NavDropdown.Divider />
                             <Link to="/allrecipes/Global" style={{ textDecoration: 'none' }}><NavDropdown.Item href="#action3" style={{ color: '#430C8C' }}>See All</NavDropdown.Item></Link>
                         </NavDropdown>
-                        <Nav.Link  onClick={() => navigate('/profile/123')} style={{ color: '#430C8C' }}>
+                        <Nav.Link onClick={() => navigate('/profile/123')} style={{ color: '#430C8C' }}>
                             Link
                         </Nav.Link>
 
@@ -108,6 +109,8 @@ const Navbare = () => {
                             type="search"
                             placeholder="Search"
                             className="me-2"
+                            value={search}
+                            onChange={(e) => setSearch(e.target.value)}
                             aria-label="Search"
                             onKeyPress={handleEnterKey}
                         />
@@ -128,7 +131,7 @@ const Navbare = () => {
                                 variant="none"
                                 title={<i class="fa-solid fa-bars"></i>}
                             >
-                               <Dropdown.Item onClick={()=>navigate(`/profile/${user.actualUser.id}`)}  style={{ color: '#430C8C' }}>Profile</Dropdown.Item>
+                                <Dropdown.Item onClick={() => navigate(`/profile/${user.actualUser.id}`)} style={{ color: '#430C8C' }}>Profile</Dropdown.Item>
                                 <Dropdown.Item eventKey="2" style={{ color: '#430C8C' }}>Settings</Dropdown.Item>
                                 <Dropdown.Divider />
                                 <Dropdown.Item eventKey="4" style={{ color: '#430C8C' }} onClick={logout}>LogOut</Dropdown.Item>
